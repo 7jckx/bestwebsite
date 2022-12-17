@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home 🏠</title>
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#myBtn {
+  width: 100px;
+  font-size: 18px;
+  padding: 16px;
+  border: none;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="https://joy1.videvo.net/videvo_files/video/free/2021-04/large_watermarked/210329_01B_Bali_1080p_027_preview.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="center">
+  <button style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="myBtn" onclick="myFunction()">Go</button>
+</div>
+
+
+</body>
+</html>
